@@ -19,8 +19,8 @@ Feature: Checking weather for different cities on OpenWeatherMap
 	    Then Weather Reports are displayed
 		
 	Scenario: Request the Open Weather API
-		Given User is on Search Page
-        When User make a GET request to "https://openweathermap.org/find?q=california"
-		Then User get a 200 response
-		Then Response has clear sky
+	    Given User is on Search Page
+            When User make a GET request to "https://openweathermap.org/find?q=california"
+	    Then User get a 200 response
+	    Then Response has clear sky
 			
