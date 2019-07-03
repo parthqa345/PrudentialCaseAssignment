@@ -1,4 +1,4 @@
-# PrudentialCaseStudy
+# PrudentialCaseAssignment
 Solution for case study of Prudential
 
 Pre-requisites : 
